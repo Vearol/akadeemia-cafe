@@ -50,12 +50,12 @@ jobs:
             npm run build
         shell: bash
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./build
-          name: Website
+          name: website
       - name: Deploy
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: Website
+          artifact_name: website
         id: deployment
