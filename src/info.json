@@ -1,0 +1,264 @@
+{
+    "en": {
+        "hours": {
+            "title": "Hours of operation",
+            "hours": [
+                "Mon - Fri ...... 10am - 7pm",
+                "Sat - Sun ...... 11am - 5pm"
+            ]
+        },
+        "description": {
+            "title": "About us",
+            "text": [
+                "We just opened, so come visit!",
+                "We offer delicious coffee, a space to rest from a hectic day at work and school, and a great place to open a new board game with a group of friends."
+            ]
+        },
+        "menu": [
+            {
+                "title": "drinks",
+                "items": [
+                    [
+                        "coffee",
+                        "€3",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "espresso",
+                        "€4",
+                        "45%",
+                        "80%"
+                    ],
+                    [
+                        "macchiato",
+                        "€4",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "cappucino",
+                        "€4",
+                        "52%",
+                        "80%"
+                    ],
+                    [
+                        "late",
+                        "€4.5",
+                        "55%",
+                        "80%"
+                    ],
+                    [
+                        "mocha",
+                        "€4.5",
+                        "63%",
+                        "86%"
+                    ],
+                    [
+                        "pourover",
+                        "€5",
+                        "57%",
+                        "90%"
+                    ],
+                    [
+                        "tea",
+                        "€3.5",
+                        "47%",
+                        "82%"
+                    ]
+                ]
+            },
+            {
+                "title": "food and dessert",
+                "items": [
+                    [
+                        "Sandwiches",
+                        "~€8",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "baked goods",
+                        "€3-€6",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "cake",
+                        "€3",
+                        "54%",
+                        "84%"
+                    ],
+                    [
+                        "bon bons",
+                        "€2",
+                        "52%",
+                        "80%"
+                    ],
+                    [
+                        "chocolate",
+                        "€4",
+                        "48%",
+                        "80%"
+                    ]
+                ]
+            },
+            {
+                "title": "boardgames",
+                "items": [
+                    [
+                        "Sandwiches",
+                        "€3"
+                    ],
+                    [
+                        "baked goods",
+                        "€3"
+                    ],
+                    [
+                        "cake",
+                        "€3"
+                    ],
+                    [
+                        "bon bons",
+                        "€3"
+                    ],
+                    [
+                        "chocolate",
+                        "€3"
+                    ]
+                ]
+            }
+        ]
+    },
+    "et": {
+        "hours": {
+            "title": "Tööajad",
+            "hours": [
+                "E - R ...... 10.00 - 19.00",
+                "L - P ...... 11.00 - 17.00"
+            ]
+        },
+        "description": {
+            "title": "Meist",
+            "text": [
+                "Me oleme just avanud, nii et tulge külla!",
+                "Pakume maitsvat kohvi, kohta puhkamiseks kiire töö- ja koolipäeva järel ning suurepärast kohta uue lauamängu avamiseks sõpradega."
+            ]
+        },
+        "menu": [
+            {
+                "title": "joogid",
+                "items": [
+                    [
+                        "kohv",
+                        "€3",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "espresso",
+                        "€4",
+                        "45%",
+                        "80%"
+                    ],
+                    [
+                        "macchiato",
+                        "€4",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "cappucino",
+                        "€4",
+                        "52%",
+                        "80%"
+                    ],
+                    [
+                        "late",
+                        "€4.5",
+                        "55%",
+                        "80%"
+                    ],
+                    [
+                        "moka",
+                        "€4.5",
+                        "63%",
+                        "86%"
+                    ],
+                    [
+                        "käsivalamine",
+                        "€5",
+                        "57%",
+                        "90%"
+                    ],
+                    [
+                        "tee",
+                        "€3.5",
+                        "47%",
+                        "82%"
+                    ]
+                ]
+            },
+            {
+                "title": "toit ja magustoit",
+                "items": [
+                    [
+                        "Võileivad",
+                        "~€8",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "küpsetised",
+                        "€3-€6",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "kook",
+                        "€3",
+                        "54%",
+                        "84%"
+                    ],
+                    [
+                        "kommid",
+                        "€2",
+                        "52%",
+                        "80%"
+                    ],
+                    [
+                        "šokolaad",
+                        "€4",
+                        "48%",
+                        "80%"
+                    ]
+                ]
+            },
+            {
+                "title": "lauamängud",
+                "items": [
+                    [
+                        "Võileivad",
+                        "€3"
+                    ],
+                    [
+                        "küpsetised",
+                        "€3"
+                    ],
+                    [
+                        "kook",
+                        "€3"
+                    ],
+                    [
+                        "kommid",
+                        "€3"
+                    ],
+                    [
+                        "šokolaad",
+                        "€3"
+                    ]
+                ]
+            }
+        ]
+    }
+}
