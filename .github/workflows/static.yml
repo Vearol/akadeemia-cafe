@@ -47,7 +47,7 @@ jobs:
           NODE_ENV: dev
         run: |
             # Building project
-            npm run build
+            npm run build --base=/akadeemia-cafe
         shell: bash
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
