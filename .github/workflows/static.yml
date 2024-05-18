@@ -45,9 +45,10 @@ jobs:
       - name: Build
         env:
           NODE_ENV: dev
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
             # Building project
-            npm run build --base=/akadeemia-cafe
+            npm run build
         shell: bash
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
