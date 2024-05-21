@@ -23,7 +23,7 @@
     }
 </script>
 <div id="background" class="two-columns">
-    <div>
+    <div id="left">
         <svg xmlns="http://www.w3.org/2000/svg" style="opacity: 30%;" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 700 700" width="700" height="700"><defs><filter id="nnnoise-filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
             <feTurbulence type="fractalNoise" baseFrequency="0.112" numOctaves="4" seed="15" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence"></feTurbulence>
             <feSpecularLighting surfaceScale="12" specularConstant="0.75" specularExponent="20" lighting-color="#a87457" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="specularLighting">
@@ -45,6 +45,10 @@
 
 <div id="container" class="two-columns">
     <section in:slideIn>
+        <div class="lang">
+            <span class:lang-active={isEnglish}><a href="#" on:click={()=>{isEnglish = true}}><h3>EN</h3></a></span>
+            <span class:lang-active={!isEnglish}><a href="#" on:click={()=>{isEnglish = false}}><h3>ET</h3></a></span>
+        </div>
         <div class="scroll-fix info" style="margin-left: auto; width: fit-content;">
             <!-- <h1>Akadeemia Kafe</h1> -->
             <img src="./logo.png" />
@@ -62,10 +66,6 @@
         <!-- <div>test</div> -->
     </section>
     <section in:slideIn={{ dir: "right" }} class="col board">
-        <div class="lang">
-            <span class:lang-active={isEnglish}><a href="#" on:click={()=>{isEnglish = true}}><h3>EN</h3></a></span>
-            <span class:lang-active={!isEnglish}><a href="#" on:click={()=>{isEnglish = false}}><h3>ET</h3></a></span>
-        </div>
         <div class="scroll-fix board-filter">
             <div class="description">
                 <div class="entry" style="--gradient-gray: 10%; --gradient-black: 70%;"><h1><SplitLetter word={data['description']['title']} className="board-letter" /></h1></div>
@@ -126,6 +126,12 @@
         top:0;
         left: 0;
         overflow-y: auto;
+
+        @media screen and (max-width: 1250px) {
+            bottom: 0;
+            background: white;
+          opacity: 70%;
+        }
     }
 
     #background div {
@@ -137,6 +143,10 @@
         background-color: #d7bfa8;
         background: linear-gradient(180deg, rgba(162,146,131,1) 0%, rgba(179,155,133,1) 35%, rgba(186,154,123,1) 79%);  
         position: relative;
+    }
+    #background #left {
+        background: white;
+        opacity: 70%;
     }
     #background div svg {
         opacity: 50%;
@@ -175,7 +185,7 @@
         }
 
         @media screen and (max-width: 640px) {
-            padding: 2em 0;
+            padding: 2em 0.5em;
         }
     }
     h2 {
@@ -206,7 +216,7 @@
         color: black;
     }
     .lang-active a {
-        color: white;
+        color:  #d7bfa8;
     }
     /* Left section */
     .info {
@@ -218,15 +228,20 @@
         display: block;
         width: 80%;
         margin: auto;
-        padding: 20px 0;
-        max-width: 500px;
-        min-width: 300px;
+        padding: 30px 0;
+        max-width: 400px;
+        min-width: 200px;
     }
 
     .info iframe {
         margin-top: 3em;
     }
     /* Hours of operation */
+    .hours h2 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        letter-spacing: 0.165em;
+    }
     .hours ul {
         font-family: "JetBrains Mono", monospace;
         list-style: none;
