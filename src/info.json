@@ -19,112 +19,144 @@
                 "title": "drinks",
                 "items": [
                     [
-                        "coffee",
-                        "€3",
+                        "espresso",
+                        "€2.50",
                         "42%",
                         "80%"
                     ],
                     [
-                        "espresso",
-                        "€4",
+                        "americano",
+                        "€2.90",
                         "45%",
                         "80%"
                     ],
                     [
-                        "macchiato",
-                        "€4",
+                        "caffe latte",
+                        "€3.50",
                         "48%",
                         "80%"
                     ],
                     [
-                        "cappucino",
-                        "€4",
+                        "cappuccino",
+                        "€3.50",
                         "52%",
                         "80%"
                     ],
                     [
-                        "late",
-                        "€4.5",
+                        "chai latte",
+                        "€3.50",
                         "55%",
                         "80%"
                     ],
                     [
-                        "mocha",
-                        "€4.5",
+                        "caffe mocha",
+                        "€3.90",
                         "63%",
                         "86%"
                     ],
                     [
-                        "pourover",
-                        "€5",
+                        "flat white",
+                        "€3.90",
                         "57%",
                         "90%"
                     ],
                     [
+                        "kakao",
+                        "€3.50",
+                        "47%",
+                        "82%"
+                    ],
+                    [
+                        "matcha latte",
+                        "€4.50",
+                        "47%",
+                        "82%"
+                    ],
+                    [
                         "tea",
-                        "€3.5",
+                        "€2.90",
                         "47%",
                         "82%"
                     ]
                 ]
             },
             {
-                "title": "food and dessert",
+                "title": "food",
                 "items": [
                     [
-                        "Sandwiches",
-                        "~€8",
+                        "beef sandwich",
+                        "€6.90",
                         "42%",
                         "80%"
                     ],
                     [
-                        "baked goods",
-                        "€3-€6",
+                        "salmon sandwich",
+                        "€7.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "chicken sandwich",
+                        "€7.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "vegan sandwich",
+                        "€6.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "ceasar salad",
+                        "€6.50",
                         "48%",
                         "80%"
                     ],
                     [
-                        "cake",
-                        "€3",
+                        "feta salad",
+                        "€7.50",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "salmon bowl",
+                        "€7.90",
                         "54%",
                         "84%"
                     ],
                     [
-                        "bon bons",
-                        "€2",
+                        "vegan bowl",
+                        "€6.90",
                         "52%",
                         "80%"
                     ],
                     [
-                        "chocolate",
-                        "€4",
+                        "chicken bowl",
+                        "€6.90",
                         "48%",
                         "80%"
                     ]
                 ]
             },
             {
-                "title": "boardgames",
+                "title": "fitness cakes",
                 "items": [
                     [
-                        "Sandwiches",
-                        "€3"
+                        "chocolate avocado",
+                        "€3.90"
                     ],
                     [
-                        "baked goods",
-                        "€3"
+                        "vanilla berry",
+                        "€3.50"
                     ],
                     [
-                        "cake",
-                        "€3"
+                        "carrot cake",
+                        "€3.50"
                     ],
                     [
-                        "bon bons",
-                        "€3"
-                    ],
-                    [
-                        "chocolate",
-                        "€3"
+                        "and other",
+                        "come and find out"
                     ]
                 ]
             }
@@ -134,8 +166,8 @@
         "hours": {
             "title": "Tööajad",
             "hours": [
-                "E - R ...... 10.00 - 19.00",
-                "L - P ...... 11.00 - 17.00"
+                "E - R ...... 10.00 - 20.00",
+                "L - P ...... 10.00 - 19.00"
             ]
         },
         "description": {
