@@ -51,7 +51,7 @@
         </div>
         <div class="scroll-fix info" style="margin-left: auto; width: fit-content;">
             <!-- <h1>Akadeemia Kafe</h1> -->
-            <img src="./logo.png" />
+            <img src="./logo_transparent.png" />
             <div class="hours">
                 <h2>{data['hours']['title']}</h2>
                 <ul>    
