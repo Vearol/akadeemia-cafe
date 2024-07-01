@@ -61,7 +61,7 @@
                 </ul>
             </div>
             <iframe width="100%" height="450" style="border:0" loading="lazy" title="Map with the cafe pointed out"
-                src="https://www.google.com/maps/@59.3974983,24.6670427,19.37z?entry=ttu"></iframe> 
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:Eh9Ba2FkZWVtaWEgdGVlLCBUYWxsaW5uLCBFc3RvbmlhIi4qLAoUChIJnRFu5ayVkkYRhst7JPA25HcSFAoSCb8WVt-ZlJJGEXBi_BhtswAE&key=AIzaSyDI3i-iv6QZ3LAALyxZxkY_t4vLZLCXA9I"></iframe> 
         </div>
         <!-- <div>test</div> -->
     </section>
