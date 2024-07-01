@@ -3,8 +3,8 @@
         "hours": {
             "title": "Hours of operation",
             "hours": [
-                "Mon - Fri ...... 10am - 7pm",
-                "Sat - Sun ...... 11am - 5pm"
+                "Mon - Fri ...... 10:00 - 20:00",
+                "Sat - Sun ...... 11:00 - 20:00"
             ]
         },
         "description": {
@@ -179,115 +179,147 @@
         },
         "menu": [
             {
-                "title": "joogid",
+                "title": "JOOGID",
                 "items": [
                     [
-                        "kohv",
-                        "€3",
+                        "espresso",
+                        "€2.50",
                         "42%",
                         "80%"
                     ],
                     [
-                        "espresso",
-                        "€4",
+                        "americano",
+                        "€2.90",
                         "45%",
                         "80%"
                     ],
                     [
-                        "macchiato",
-                        "€4",
+                        "caffe latte",
+                        "€3.50",
                         "48%",
                         "80%"
                     ],
                     [
-                        "cappucino",
-                        "€4",
+                        "cappuccino",
+                        "€3.50",
                         "52%",
                         "80%"
                     ],
                     [
-                        "late",
-                        "€4.5",
+                        "chai latte",
+                        "€3.50",
                         "55%",
                         "80%"
                     ],
                     [
-                        "moka",
-                        "€4.5",
+                        "caffe mocha",
+                        "€3.90",
                         "63%",
                         "86%"
                     ],
                     [
-                        "käsivalamine",
-                        "€5",
+                        "flat white",
+                        "€3.90",
                         "57%",
                         "90%"
                     ],
                     [
-                        "tee",
-                        "€3.5",
+                        "kakao",
+                        "€3.50",
+                        "47%",
+                        "82%"
+                    ],
+                    [
+                        "matcha latte",
+                        "€4.50",
+                        "47%",
+                        "82%"
+                    ],
+                    [
+                        "tea",
+                        "€2.90",
                         "47%",
                         "82%"
                     ]
                 ]
             },
             {
-                "title": "toit ja magustoit",
+                "title": "VÕIKUD",
                 "items": [
                     [
-                        "Võileivad",
-                        "~€8",
+                        "Rostbiif võiku",
+                        "€6.90",
                         "42%",
                         "80%"
                     ],
                     [
-                        "küpsetised",
-                        "€3-€6",
+                        "Lõhe võiku",
+                        "€7.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "Kana võiku",
+                        "€7.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "Vegan võiku",
+                        "€6.90",
+                        "42%",
+                        "80%"
+                    ],
+                    [
+                        "Caesari salat",
+                        "€6.50",
                         "48%",
                         "80%"
                     ],
                     [
-                        "kook",
-                        "€3",
+                        "Feta salat",
+                        "€7.50",
+                        "48%",
+                        "80%"
+                    ],
+                    [
+                        "Lõhekauss",
+                        "€7.90",
                         "54%",
                         "84%"
                     ],
                     [
-                        "kommid",
-                        "€2",
+                        "Vegan kauss",
+                        "€6.90",
                         "52%",
                         "80%"
                     ],
                     [
-                        "šokolaad",
-                        "€4",
+                        "Kanakauss",
+                        "€6.90",
                         "48%",
                         "80%"
                     ]
                 ]
             },
             {
-                "title": "lauamängud",
+                "title": "fitness cakes",
                 "items": [
                     [
-                        "Võileivad",
-                        "€3"
+                        "chocolate avocado",
+                        "€3.90"
                     ],
                     [
-                        "küpsetised",
-                        "€3"
+                        "vanilla berry",
+                        "€3.50"
                     ],
                     [
-                        "kook",
-                        "€3"
+                        "carrot cake",
+                        "€3.50"
                     ],
                     [
-                        "kommid",
-                        "€3"
-                    ],
-                    [
-                        "šokolaad",
-                        "€3"
+                        "ja muud",
+                        "tulge ja proovige"
                     ]
                 ]
             }
